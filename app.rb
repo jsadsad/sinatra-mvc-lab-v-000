@@ -9,4 +9,5 @@ class App < Sinatra::Base
     pig_latin = Piglatinizer.new
     @piglatin
     erb :results
+  end
 end
