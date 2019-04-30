@@ -15,6 +15,6 @@ class Piglatinzer
   end
   
   def piglatinize_sent(sent)
-    sent.split.collect {|word| piglatinze_word(word)
+    sent.split.collect {|word| piglatinze_word(word).join(" ")}
   
 end
