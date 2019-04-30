@@ -23,8 +23,8 @@ class PigLatinizer
     word << "ay"
   end
   
-  def piglatinize_sent(sent)
-    sent.split.collect {|word| piglatinize_word(word)}.join(" ")
+  def piglatinize_sentence(sent)
+    sent.split.collect { |word| piglatinize_word(word) }.join(" ")
   end
   
 end
