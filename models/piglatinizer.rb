@@ -1,7 +1,7 @@
 class PigLatinizer
 
-  def piglatinize(input_str)
-    input_str.split(" ").length == 1 ? piglatinize_word(input_str) : piglatinize_sentence(input_str)
+  def piglatinize(str)
+    str.split(" ").length == 1 ? piglatinize_word(input_str) : piglatinize_sentence(input_str)
   end
   
   private
@@ -9,7 +9,7 @@ class PigLatinizer
   def consonant?(char)
     !char.match(/[aeiouAEIOU]/)
   end
-    
+  
   def piglatinize_word(word)
     if !consonant?(word[0])
       word = word + "w"
