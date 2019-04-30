@@ -1,4 +1,4 @@
 class Piglatinzer
   def piglatinze(str)
-    str.split(" ").
+    str.split(" ").length ===
 end
