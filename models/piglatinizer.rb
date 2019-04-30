@@ -6,8 +6,9 @@ class Piglatinzer
   private
   
   def consonant?(char)
-    !char.match[//]
-  
+    !char.match[/[aeiouAEIOU]/]
+  end
+    
   def piglatinze_word
   end
   
