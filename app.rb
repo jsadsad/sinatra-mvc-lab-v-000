@@ -6,5 +6,5 @@ class App < Sinatra::Base
   end
   
   post '/piglatinize' do
-    
+    pig_latin = PL.new
 end
