@@ -5,7 +5,8 @@ class Piglatinzer
   
   private
   
-  def consonant?()
+  def consonant?(char)
+    
   
   def piglatinze_word
   end
