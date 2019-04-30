@@ -14,6 +14,6 @@ class Piglatinzer
     word << "ay"
   end
   
-  def 
+  def piglatinize_sent()
   
 end
