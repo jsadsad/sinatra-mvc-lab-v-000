@@ -10,7 +10,7 @@ class Piglatinzer
   end
     
   def piglatinze_word(word)
-    if consonant?
+    if !consonant?(word[0])
     word << "ay"
   end
   
