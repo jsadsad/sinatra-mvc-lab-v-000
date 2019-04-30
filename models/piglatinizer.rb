@@ -14,7 +14,8 @@ class Piglatinzer
       word = word + "w"
     elsif consonant?(word[0]) && consonant(word[1]) && consonant?(word[2])
       word = word.slice(3...-1) + word.slice(0,3)
-    elsif
+    elsif consonant?(word[0]) && consonant?(word[1])
+      word 
     word << "ay"
   end
   
