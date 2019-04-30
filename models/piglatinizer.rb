@@ -1,4 +1,4 @@
-class PigLatinzer
+class PigLatinizer
   def piglatinze(str)
     str.split(" ").length == 1 ? piglatinze_word(str) : piglatinize_sent(str)
   end
@@ -23,7 +23,7 @@ class PigLatinzer
   end
   
   def piglatinize_sent(sent)
-    sent.split.collect {|word| piglatinze_word(word)}.join(" ")
+    sent.split.collect {|word| piglatinze_word(wor)}.join(" ")
   end
   
 end
