@@ -1,6 +1,6 @@
 class PigLatinizer
   def piglatinize(str)
-    str.split(" ").length == 1 ? piglatinze_word(str) : piglatinize_sent(str)
+    str.split(" ").length == 1 ? piglatinize_word(str) : piglatinize_sent(str)
   end
   
   private
