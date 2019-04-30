@@ -11,6 +11,7 @@ class Piglatinzer
     
   def piglatinze_word(word)
     if !
+    word << 
   end
   
 end
