@@ -7,7 +7,7 @@ class PigLatinizer
   private
   
   def consonant?(char)
-    !char.match[/[aeiouAEIOU]/]
+    !char.match(/[aeiouAEIOU]/)
   end
     
   def piglatinize_word(word)
@@ -31,9 +31,7 @@ end
 
 
 
-#   def consonant?(char)
-#     !char.match(/[aAeEiIoOuU]/)
-#   end
+
 
 #   def piglatinize_word(word)
 #     # word starts with vowel
