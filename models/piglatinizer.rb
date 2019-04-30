@@ -9,7 +9,8 @@ class Piglatinzer
     !char.match[/[aeiouAEIOU]/]
   end
     
-  def piglatinze_word
+  def piglatinze_word(word)
+    
   end
   
 end
