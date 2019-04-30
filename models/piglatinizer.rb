@@ -1,3 +1,4 @@
 class Piglatinzer
-  def piglatinzer
+  def piglatinze(str)
+    
 end
