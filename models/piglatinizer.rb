@@ -6,7 +6,7 @@ class Piglatinzer
   private
   
   def consonant?(char)
-    !char.match[]
+    !char.match[//]
   
   def piglatinze_word
   end
