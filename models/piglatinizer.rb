@@ -13,6 +13,7 @@ class Piglatinzer
     if !consonant?(word[0])
       word = word + "w"
     elsif consonant?(word[0]) && consonant(word[1]) && consonant?(word[2])
+      word 
     word << "ay"
   end
   
